@@ -1,0 +1,60 @@
+.weather-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.search-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-section input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  outline: none;
+}
+.search-section button {
+  width: 6rem;
+  height: 2rem;
+}
+.cards {
+  border: 1px solid black;
+  background: rgb(237, 253, 255);
+  background: linear-gradient(
+    128deg,
+    rgba(237, 253, 255, 1) 22%,
+    rgba(85, 204, 249, 1) 79%
+  );
+  border-radius: 1rem;
+  min-width: 20rem;
+  padding: 2rem;
+}
+.card {
+  border: 1px solid black;
+  background-color: aliceblue;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dates {
+  display: flex;
+  justify-content: space-between;
+}
+.other-info {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.other-info span {
+  font-size: 1.2rem;
+}
+.date-text-decoration {
+  border-bottom: 1px solid black;
+}
+.dates {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
